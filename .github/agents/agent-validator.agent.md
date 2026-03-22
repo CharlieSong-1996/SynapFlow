@@ -44,7 +44,7 @@ The agent file body MUST contain all four of the following sections (in any orde
 
 ### 3. Initialization Section Consistency
 
-- [ ] If the agent is **user-invocable** (appears in the chat dropdown), the Initialization section MUST include a step to read its memory file from `./agentmemories/<agent-name>.md`.
+- [ ] If the agent is **user-invocable** (appears in the chat dropdown), the Initialization section MUST include a step to read its memory, and MUST explicitly specify the exact location/path of the memory file (e.g., `./agentmemories/<agent-name>.md`).
 - [ ] If the agent is a **model-invokable only** agent (i.e., `user-invocable: false`), the Initialization section MUST NOT include a memory file reading step.
 
 ### 4. Language Requirement

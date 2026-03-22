@@ -62,7 +62,7 @@ Upon activation, you should:
 - handoffs.send: Indicates if the handoff should be sent.
 - handoffs.model: The model to be used for the handoff.
 
-# Copilot Default tools
+# Copilot Built-In Tools
 - agent
   - agent/runSubagent
 - edit
