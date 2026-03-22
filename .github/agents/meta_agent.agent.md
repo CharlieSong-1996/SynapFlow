@@ -51,7 +51,7 @@ Upon activation, you should:
 - tools: An array of tools that the agent can use.
 - agents: A list of other agents that this agent can interact with.
 - model: The model that the agent uses.
-- user-invocable: Indicates if the agent can be invoked by the user.
+- user-invokable: Indicates if the agent can be invoked by the user.
 - disable-model-invocation: Indicates if model invocation is disabled for the agent.
 - target: The target platform for the agent.
 - mcp-servers: A list of MCP servers that the agent can interact with.

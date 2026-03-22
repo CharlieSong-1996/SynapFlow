@@ -3,7 +3,7 @@ name: Agent Validator
 description: Validates .agent.md files against meta agent design specifications. Invoke with the target agent file path or content.
 argument-hint: Provide the path or content of the .agent.md file to validate.
 tools: [read/readFile]
-user-invocable: false
+user-invokable: false
 
 ---
 
