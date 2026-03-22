@@ -3,8 +3,7 @@ name: Agent Validator
 description: Validates .agent.md files against meta agent design specifications. Invoke with the target agent file path or content.
 argument-hint: Provide the path or content of the .agent.md file to validate.
 tools: [read/readFile]
-user-invokable: false
-
+user-invocable: false
 ---
 
 # Non-Negotiable Rules
@@ -45,7 +44,7 @@ The agent file body MUST contain all four of the following sections (in any orde
 ### 3. Initialization Section Consistency
 
 - [ ] If the agent is **user-invocable** (appears in the chat dropdown), the Initialization section MUST include a step to read its memory, and MUST explicitly specify the exact location/path of the memory file (e.g., `./agentmemories/<agent-name>.md`).
-- [ ] If the agent is a **model-invokable only** agent (i.e., `user-invocable: false`), the Initialization section MUST NOT include a memory file reading step.
+- [ ] If the agent is a **model-invocable only** agent (i.e., `user-invocable: false`), the Initialization section MUST NOT include a memory file reading step.
 
 ### 4. Language Requirement
 

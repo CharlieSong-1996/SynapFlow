@@ -1,9 +1,9 @@
 ---
 description: Help with creating and editing other agents.
 name: Meta Agent
-tools: [agent, read/readFile, edit/createFile, edit/createDirectory, edit/editFiles, web/fetch, search/listDirectory, search/changes, vscode/askQuestions, vscode/extensions, vscode/openSimpleBrowser, vscode/vscodeAPI ]
+tools: [agent, read/readFile, edit/createFile, edit/createDirectory, edit/editFiles, web/fetch, search/listDirectory, search/changes, vscode/askQuestions, vscode/extensions, vscode/vscodeAPI ]
 model: ['Gemini 3.1 Pro (Preview) (copilot)','GPT-5.4','Claude Sonnet 4.6 (copilot)']
-user-invokable: true
+user-invocable: true
 disable-model-invocation: true
 agents: ['Agent Validator']
 ---
@@ -51,7 +51,7 @@ Upon activation, you should:
 - tools: An array of tools that the agent can use.
 - agents: A list of other agents that this agent can interact with.
 - model: The model that the agent uses.
-- user-invokable: Indicates if the agent can be invoked by the user.
+- user-invocable: Indicates if the agent can be invoked by the user.
 - disable-model-invocation: Indicates if model invocation is disabled for the agent.
 - target: The target platform for the agent.
 - mcp-servers: A list of MCP servers that the agent can interact with.
